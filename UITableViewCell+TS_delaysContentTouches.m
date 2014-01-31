@@ -23,11 +23,11 @@
 
 - (void) setTs_delaysContentTouches:(BOOL)delaysContentTouches
 {
-    [self willChangeValueForKey: @"delaysContentTouches"];
+    [self willChangeValueForKey: @"ts_delaysContentTouches"];
     
     [[self ts_scrollView] setDelaysContentTouches: delaysContentTouches];
     
-    [self didChangeValueForKey: @"delaysContentTouches"];
+    [self didChangeValueForKey: @"ts_delaysContentTouches"];
 }
 
 - (BOOL) ts_delaysContentTouches
